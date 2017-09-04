@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# crae specific
+.DS_STORE
+react-ui/build

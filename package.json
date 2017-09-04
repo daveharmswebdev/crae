@@ -1,0 +1,24 @@
+{
+  "name": "crae",
+  "version": "1.0.0",
+  "description": "Testing out the CRAE stack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd react-ui/ && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveharmswebdev/crae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveharmswebdev/crae/issues"
+  },
+  "homepage": "https://github.com/daveharmswebdev/crae#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
