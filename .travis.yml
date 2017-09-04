@@ -1,0 +1,10 @@
+language: node_js
+node_js: 
+  - "stable"
+cache:
+  directories:
+  - node_modules
+  - react-ui/node_modules
+script:
+  - cd react-ui/ && npm run build
+  - cd react-ui/ && npm test
