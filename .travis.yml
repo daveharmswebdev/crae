@@ -6,5 +6,5 @@ cache:
   - node_modules
   - react-ui/node_modules
 script:
-  - cd react-ui/ && npm run build
-  - cd react-ui/ && npm test
+  - cd react-ui && npm run build
+  - cd react-ui && npm test
