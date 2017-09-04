@@ -5,6 +5,7 @@ cache:
   directories:
   - node_modules
   - react-ui/node_modules
+before_script: cd react-ui
 script:
-  - cd ./react-ui/ && npm run build
-  - cd ./react-ui/ && npm test
+  - npm run build
+  - npm test
